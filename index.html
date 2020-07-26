@@ -38,6 +38,9 @@
           <li class="nav-item">
             <a class="nav-link" href="#sche">スケジュール</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#game">試合結果</a>
+          </li>
       </div>
     </nav>
   </header>
@@ -180,7 +183,55 @@
     <div>
       <iframe class="col-12"
         src="https://calendar.google.com/calendar/embed?height=600&amp;wkst=1&amp;bgcolor=%23ffffff&amp;ctz=Asia%2FTokyo&amp;src=MTc4dTNyMnY5OTZydDJyM3IxZ2E0dGx2cmdAZ3JvdXAuY2FsZW5kYXIuZ29vZ2xlLmNvbQ&amp;src=amEuamFwYW5lc2UjaG9saWRheUBncm91cC52LmNhbGVuZGFyLmdvb2dsZS5jb20&amp;color=%23C0CA33&amp;color=%23009688&amp;showTitle=0&amp;showTabs=0"
-        style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe> </div>
+        style="border:solid 1px #777" width="800" height="600" frameborder="0" scrolling="no"></iframe>
+    </div>
+
+    <!-- 試合結果 -->
+    <div id="game">
+      <h2 class="text-center py-3 my-5">試合結果 2020年度</h2>
+    </div>
+    <div class="tab">
+      <ul class="nav nav-tabs" id="myTab" role="tablist">
+        <li class="nav-item1 col-4 p-0" role="presentation">
+          <a class="nav-link text-center active" id="home-tab" data-toggle="tab" href="#U12" role="tab"
+            aria-controls="home" aria-selected="true">U-12</a>
+        </li>
+        <li class="nav-item col-4 p-0" role="presentation">
+          <a class="nav-link text-center" id="profile-tab" data-toggle="tab" href="#U10" role="tab"
+            aria-controls="profile" aria-selected="false">U-10</a>
+        </li>
+        <li class="nav-item col-4 p-0" role="presentation">
+          <a class="nav-link text-center" id="profile-tab" data-toggle="tab" href="#other" role="tab"
+            aria-controls="profile" aria-selected="false">その他</a>
+        </li>
+
+      </ul>
+      <div class="tab-content" id="myTabContent">
+        <div class="tab-pane fade show active" id="U12" role="tabpanel" aria-labelledby="home-tab">
+          <div class="col-md-8 col-12 my-5 mx-auto">
+            <div class="game py-3 my-3 px-3 border border-secondary">
+              2020/7/25 U-12Bリーグ戦 第3節<br>
+              豊洋グランド<br> ○　3-0 文ヶ丘<br> ○　3-0 彦島
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="U10" role="tabpanel" aria-labelledby="profile-tab">
+          <div class="col-md-8 col-12 my-5 mx-auto">
+            <div class="game py-3 my-3 px-3 border border-secondary">
+
+              2020/7/25 TRM 美祢SS<br>小野田サッカー場<br> ○　13-0 厚南<br> ○　10-0 長門<br> ○　6-0 有高<br> ○　6-0 美祢
+            </div>
+          </div>
+        </div>
+        <div class="tab-pane fade" id="other" role="tabpanel" aria-labelledby="profile-tab">
+          <div class="col-md-8 col-12 my-5 mx-auto">
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+
 
   </div>
 
