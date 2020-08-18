@@ -11,10 +11,45 @@
     integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
   <link rel="shortcut icon" href="img/favicon.ico">
   <title>小月サッカースポーツ少年団</title>
-  <meta name="google-site-verification" content="ABowmbM0b4c-YU_Bqs2zrqbsx6BtkH4rxQpQUKCBzP0" />
+  <style>
+    #page_top {
+      width: 100px;
+      height: 40px;
+      position: fixed;
+      right: 0;
+      bottom: 10px;
+      background: #007ab5;
+      opacity: 0.6;
+    }
+
+    #page_top a {
+      position: relative;
+      display: block;
+      width: 100px;
+      height: 40px;
+      text-decoration: none;
+    }
+
+    #page_top a::after {
+      content: '↑ PAGE TOP';
+      font-size: 14px;
+      font-weight: bold;
+      color: #fff;
+      position: absolute;
+      top: 10px;
+      bottom: 0;
+      right: 0;
+      left: 0;
+      margin: auto;
+      text-align: center;
+    }
+  </style>
 </head>
 
 <body class="bg-light">
+
+  <div id="page_top"><a href="#"></a></div>
+
   <!-- ナビバー -->
   <header>
     <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
@@ -88,7 +123,7 @@
     </div>
   </div>
 
-  <!-- 団員への連絡 -->
+  <!-- 団員の方へ -->
   <div id="ren">
     <h2 class="text-center py-3 my-5">団員の方へ</h2>
   </div>
